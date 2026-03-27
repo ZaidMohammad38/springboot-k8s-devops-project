@@ -63,7 +63,7 @@ spring_mysql_kubeadm_sakcoorg/
 
 # 🐳 Step 1: Build & Push Docker Image
 
-## 🔹 Clone Repository
+## 🔹 Clone Repository in both master and Build nodes
 
 ```bash
 git clone https://github.com/sakit333/spring_mysql_kubeadm_sakcoorg.git
@@ -72,7 +72,7 @@ cd spring_mysql_kubeadm_sakcoorg
 
 ---
 
-## 🔹 Build & Push Image
+## 🔹 Build & Push Image in build node
 
 ```bash
 chmod +x docker_build_push.sh
@@ -106,7 +106,7 @@ cd spring_mysql_kubeadm_sakcoorg
 
 ---
 
-# ☸️ Step 2: Kubernetes Deployment
+# ☸️ Step 2: Kubernetes Deployment in master
 
 ## 🔹 Verify Cluster
 
