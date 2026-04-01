@@ -135,7 +135,10 @@ Path not found
 ```bash
 sudo cp -r kube_scripts /kube_scripts
 ```
-
+```bash
+inside K8 script
+BASE_PATH="$(pwd)/kube_script"
+```
 ---
 
 ## 🔹 Run Deployment Script
